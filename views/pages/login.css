@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    min-height: 450px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    text-align: center;
+    
+}
+.main{
+    
+   width: 50vw;
+   height: 50vh;
+   background-color: hsla(0, 100%, 30%, 0.3);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: auto;
+}
+label{
+    color: white;
+}
+input{
+   height: 20px;
+    border-radius: 5px ;
+    margin: 10px;
+}
+input[type=submit]{
+    height: auto;
+    width: 8vw;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    text-align: center;
+    
+
+}
+a{
+    display: block;
+    color: white;
+}
+
+@media screen and (max-width:767px) {
+    input[type=submit]{
+        height: auto;
+        /*width: 5vw;*/
+        width: 50%;
+        background-color: blueviolet;
+        color: white;
+        /*padding: 5px;*/
+        border-radius: 5px;
+        border-color: blueviolet;
+        text-align: center;
+        
+    
+    }
+ 
+}

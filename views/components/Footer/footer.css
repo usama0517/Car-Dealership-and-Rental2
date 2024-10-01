@@ -1,0 +1,29 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+h2{
+    color: yellow;
+    
+}
+.cp{
+    text-align: center;
+    height: 5vh;
+}

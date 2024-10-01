@@ -1,0 +1,48 @@
+.products-container{
+   
+   
+
+}
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: blueviolet;
+    width: 40vw;
+   max-width: 60vw;
+   max-height: 30vh;
+   margin-left: 2vw;
+}
+.car-img{
+    width: 15vw;
+    height: 29vh;
+    margin: 0;
+}
+body {
+    min-height: 1000px;
+    margin-bottom: 150px;
+    margin-top: 120px;
+    clear: both;
+ }
+ .wrapper{
+    display: inline-block;
+ }
+
+ @media screen and (max-width: 767px) {
+   .products-container{
+    display: block;
+   }
+   .wrapper{
+    display: block;
+    margin-bottom: 15px;
+   }
+   .product-container{
+    width: 100%;
+    max-width: 150%;
+   }
+   .car-img{
+    max-width: auto;
+    width: 30vw;
+   }
+    
+ }
